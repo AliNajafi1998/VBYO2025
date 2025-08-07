@@ -123,6 +123,7 @@ uv pip install pillow
 
 # For MCP
 uv pip install 'mcp[cli]'
+uv pip install python-dotenv
 ```
 
 

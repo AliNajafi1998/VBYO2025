@@ -106,3 +106,33 @@ Below is a curated list of tools you can use as **MCP hosts** — i.e., platform
 - **Link:** [https://ollama.com](https://ollama.com)
 
 ---
+
+
+# Libraries that we will need to install
+```shell
+uv pip install transformers
+
+# Checkout pytorch to find the version compatible with the GPU device of your system
+uv pip install pytorch
+
+# For RAG
+uv pip install chromadb
+uv pip install einops
+uv pip install timm
+uv pip install pillow
+
+# For MCP
+uv pip install 'mcp[cli]'
+```
+
+
+
+# GEMINI Setup
+You need to get a API Key to be able to utilize GEMINI API. <br>
+## Steps:
+- Create a google developer account
+- Create a project
+- Get API key for your project
+
+Here is the link to get API Key:<br>
+🔗 https://aistudio.google.com/app/apikey
